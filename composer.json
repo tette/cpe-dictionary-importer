@@ -1,0 +1,23 @@
+{
+  "name": "tisayama/cpe-dictionary-importer",
+  "description": "import CPE dictionary from NVD",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tisayama",
+      "email": "isayama.fe@gmail.com"
+    }
+  ],
+  "require" : {
+    "corneltek/cliframework" : "2.8",
+    "imangazaliev/didom": "1.6.3",
+    "ramsey/uuid": "3.3.0",
+    "ext-curl": "*"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "CPEDictionaryImporter\\" : "src/CPEDictionaryImporter/"
+    }
+  }
+}
